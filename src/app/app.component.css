@@ -1,0 +1,97 @@
+*
+{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+header
+{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: black;
+}
+header a
+{
+    text-decoration: none;
+    color:white;
+    font-size:22px;
+}
+header i
+{
+    font-size: 22px;
+}
+@media all and (max-width:991px) {
+    .email-header
+    {
+        width: 100%;
+        height: 50px;
+        text-align: center;
+    }
+    .call-header
+    {
+        display: none;
+    }
+    
+}
+.navbar{
+box-shadow: -40px 0px 10px white;
+}
+.navbar-nav .nav-item
+{
+    display: flex;
+   padding-left: 20px;
+}
+.navbar-nav a
+{
+    color:rgb(70, 66, 66);
+    font-weight: 500;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+.navbar-nav a:hover
+{
+    color:black;
+    background-color:rgb(226, 41, 9);
+    border-radius:3px;
+}
+@media all and (max-width:576px) {
+    .navbar-nav a
+    {
+        
+        text-align:left;
+    }
+    .navbar-nav a:hover
+    {
+background-color:inherit;
+    }
+    
+}
+
+@media all and (max-width:991px) {
+ .navbar-brand
+ {
+  text-align: center;
+ }   
+}
+@media all and (max-width:576px) {
+    .navbar-brand
+    {
+       width:0;
+    }
+}
+.navbar
+{
+    position:sticky;
+}
+@media all and (max-width:800px) {
+    .navbar
+    {
+        width:100%;
+        padding:0px;
+        margin:0px;
+    }
+    }   
+   
+

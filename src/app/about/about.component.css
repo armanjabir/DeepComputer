@@ -1,0 +1,274 @@
+.ABOUT
+{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(33,49,72,0.85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-weight: bolder;
+}
+.line
+{
+    width: 100%;
+    height: 10px;
+    background-color:white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.st1
+{
+width: 40px;
+height: 4px;
+background-color: gainsboro;
+}
+
+.st2
+{
+width: 40px;
+height: 4px;
+background-color:rgb(0, 251, 255);
+}
+.st3
+{
+width: 40px;
+height: 4px;
+background-color: gainsboro;
+}
+/* footer section starts */
+.card
+{
+    border-radius: 20px;
+    border:0px;
+    box-shadow: 0px 0px 10px gray;
+
+}
+.card div
+{
+    text-align: center;
+}
+section
+{
+    background-color: gainsboro;
+}
+.card img
+{
+    border-radius: 10px;
+}
+.card img:hover
+{
+    transform: scale(1.02);
+    transition: all 0.2s linear;
+    background-color: inherit;
+}
+.card a
+{
+    width: 150px;
+    border:2px solid orangered;
+    color:orangered;
+    font-weight: bold;
+    border-radius:20px;
+}
+.card a:hover
+{
+    background-color: inherit;
+}
+.service
+{
+    background-color: white;
+    border-radius: 20px;
+}
+
+
+footer
+{
+    background-color:#00a2e8;
+}
+.stline
+{
+    border-bottom:3px dotted white;
+}
+
+.Qlink li
+{
+    margin-top: 4px;
+    font-weight: 480;
+    transition: all .5s linear;
+    margin-left:10px;
+}
+.Qlink li:hover
+{
+    transform: translateX(6px);
+}
+.hrline
+{
+    width:100%;
+    height:1px;
+    background-color: white;
+    margin: 0px;
+    padding:0px;
+}
+ul li .icon
+{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 20px;
+}
+ul li .icon:hover
+{
+    background-color: inherit;
+}
+.footer
+{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color:wheat;
+    line-height: 50px;
+}
+/* feedback section start */
+.enq
+{
+    position: fixed;
+    right:0%;
+    bottom:20%;
+    z-index: 100000;
+    
+}
+@media all and (max-width:576px) {
+    .enq
+    {
+        position:fixed;
+        bottom:100px;
+        right:0%;
+    }
+}
+/* whatsapp section starts */
+.whp
+{
+    position: fixed;
+    left:10px;
+    bottom: 100px;
+    z-index: 1000;
+}
+/* whatsapp section ends */
+
+.call
+{
+    font-size: 30px;
+    background-color: red;
+    color:white;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height:60px;
+    border-radius: 50%;
+    position: fixed;
+    right:0px;
+    bottom: 60%;
+    margin-right:10px;
+    animation-name:shadow;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+    animation-play-state: running;
+    z-index: 100;
+}
+@keyframes shadow {
+    0%{box-shadow: 0px 0px 30px blue;}
+    5%{box-shadow: 0px 0px 30px blue;}
+    6%{box-shadow: 0px 0px 30px blue;}
+    7%{box-shadow: 0px 0px 30px blue;}
+    8%{box-shadow: 0px 0px 30px blue;}
+    9%{box-shadow: 0px 0px 30px blue;}
+    10%{box-shadow: 0px 0px 30px blue;}
+    15%{box-shadow: 0px 0px 30px blue;}
+    20%{box-shadow: 0px 0px 30px blue;}
+    30%{box-shadow: 0px 0px 30px blue;}
+    40%{box-shadow: 0px 0px 50px blue;}
+    50%{box-shadow: 0px 0px 50px blue;}
+    60%{box-shadow: 0px 0px 50px blue;}
+    70%{box-shadow: 0px 0px 50px blue;}
+    80%{box-shadow: 0px 0px 50px blue;}
+    90%{box-shadow: 0px 0px 50px blue;}
+    100%{box-shadow: 0px 0px 50px blue;}
+    
+    
+}
+@media all and (max-width:576px) {
+    .call
+    {
+        position: fixed;
+        bottom: 60%;
+    }
+}
+/* feedback section end */
+/* sm footer */
+.footer
+{
+    width: 100%;
+    overflow: hidden;
+}
+.smfooter
+{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    padding-bottom: 7px;
+    display: none;
+}
+@media all and (max-width:768px) {
+    .smfooter
+    {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: black;
+        padding-bottom: 7px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding-top: 10px;
+    }
+    .ftbtn
+    {
+        background-color: black;
+        color:white;
+        border:1px dashed white;
+        border-radius: 0px;
+    
+    }   
+    .modal
+    {
+        margin-top: 100px;
+    }
+}
+/* sm footer */
+.callus
+{
+    display: flex;
+    justify-content: space-between;
+}
+#sub
+{
+    background-color: gray;
+    color:white;
+    border-radius: 30px;
+    margin-left: 30px;
+    transition: all 0.3s linear;
+}
+#sub:hover
+{
+border:3px solid rgb(157, 54, 54);
+background-color: inherit;
+color:rgb(157, 54, 54);
+transform: scale(1.3);
+}
+
+/* footer section ends */
